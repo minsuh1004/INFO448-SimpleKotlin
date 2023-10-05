@@ -33,8 +33,8 @@ fun sub(x: Int, y: Int): Int {
 }
 
 // write a "mathOp" function that takes two Ints and a function (that takes two Ints and returns an Int), returns an Int, and applies the passed-in-function to the arguments
-fun mathOp(x: Int, y: Int, op: (Int, Int) -> Int): Int {
-    return (op(x, y))
+fun mathOp(x: Int, y: Int, op: (input1: Int, input2: Int) -> Int): Int {
+    return op(x, y)
 }
 
 // write a class "Person" with first name, last name and age
